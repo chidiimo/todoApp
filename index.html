@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App Homepage</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="todos">
+        <table>
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>content</th>
+              <th>date</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>jugging</td>
+              <td>this is a todo for jugging</td>
+              <td>24/09/2024</td>
+            </tr>
+            <tr>
+              <td>jugging</td>
+              <td>this is a todo for jugging</td>
+              <td>24/09/2024</td>
+            </tr>
+            <tr>
+              <td>jugging</td>
+              <td>this is a todo for jugging</td>
+              <td>24/09/2024</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="form">
+        <form>
+          <label for="title">
+            Title:
+            <input type="text" name="title" id="title" placeholder="jugging" />
+          </label>
+          <label for="content">
+            Content:
+            <textarea
+              name="content"
+              id="content"
+              placeholder="write ur content here"
+            ></textarea>
+          </label>
+
+          <label for="date">
+            Date:
+            <input type="date" name="date" id="date" />
+          </label>
+          <input type="submit" value="submit" />
+        </form>
+      </div>
+      <div id="add">
+        <button>+</button>
+      </div>
+    </div>
+  </body>
+</html>
